@@ -1,0 +1,15 @@
+{
+  "name": "leaf/core",
+  "type": "package",
+  "autoload": {
+    "psr-4": {
+      "Leaf\\Core\\": "./src"
+    }
+  },
+  "require": {
+    "php": "8.0",
+    "doctrine/orm": "^2.14",
+    "symfony/serializer": "^6.0",
+    "symfony/http-foundation": "^6.0"
+  }
+}
